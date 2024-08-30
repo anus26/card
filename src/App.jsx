@@ -8,9 +8,9 @@ function App(){
    }
     return(
         <>
-        <h1>hello world{data}</h1>
+        <h1 className="mt-10">hello world{data}</h1>
         <Button name="click"/>
-        <Button name="name"/>
+        <Button name="name" />
         <button onClick={addcounter}>click</button>
         </>
     )
